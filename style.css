@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+--primary-color: #1876f2e7;
+--secondary-color:#38d311e8;
+}
+body{
+    
+    background-color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input[type="text"]{
+    border-radius: 10px;
+    border: 1px solid #bebbae;
+    font-weight: bold;
+}
+
+#deadline, #priority-dropdown, #category-dropdown, #add-button{
+    border: 1px solid #bebbae;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#add-button{
+    border: none;
+    background-color: var(--secondary-color);
+}
+.header{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px;
+}
+
+.container{
+    height: inherit;
+    width: 100%;
+    display: flex;  
+    flex-direction: row; 
+}
+.create-task{
+   border: none;
+   margin: 5px;
+   padding: 10px;
+   background-color: white;
+}
+
+.create-task form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.create-task form input{
+    font-size: 16px;
+    padding: 5px;
+}
+.create-task form select{
+    font-size: 16px;
+    padding: 5px;
+}
+.create-task form button{
+    
+    font-size: 16px;
+    padding: 5px;
+}
+.task-list{
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;   
+}
+.task-list input{
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.task-list table{
+    width: 100%;
+    border: 1px solid black;
+}
+.task-list table tr td{
+   text-align: center;
+}
+tr.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+#search {
+    margin:40px 0 20px 10px;
+}
+.task-list{
+    margin: 2px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+table{
+border-collapse: collapse;
+width: 100%;
+width: 100%;
+}
+thead{
+background-color: var(--primary-color);
+} 
+
+
