@@ -20,7 +20,7 @@ input[type="text"]{
     font-weight: bold;
 }
 
-#deadline, #priority-dropdown, #category-dropdown, #add-button{
+#deadline, #timeline,#priority-dropdown, #category-dropdown, #add-button{
     border: 1px solid #bebbae;
     border-radius: 10px;
     font-weight: bold;
